@@ -1,0 +1,27 @@
+body, html {
+    height: 100%;
+}
+
+body {
+    /* The image used */
+    background-image: url("recipebox.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Red Hat Text', sans-serif;
+}
+nav {
+    display: block;
+    color: bisque;
+}
+div{
+    padding-left: 850px;
+}
+#centerimg {
+    padding-left: 800px;
+}
