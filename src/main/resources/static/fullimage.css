@@ -4,7 +4,10 @@ body, html {
 
 body {
     /* The image used */
-    background-image: url("recipebox.jpg");
+    /*background-image: url("recipebox.jpg");*/
+
+
+
 
     /* Full height */
     height: 100%;
@@ -14,13 +17,45 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Red Hat Text', sans-serif;
+
+
+    background-image: url("recipebox.jpg");
+    background-color: rgba(255,255,255,0.6);
+    background-blend-mode: lighten;
+    background-size: cover;
+
+
+}
+
+/*#background{*/
+/*    background-image: url("recipebox.jpg");*/
+/*    background-color: rgba(255,255,255,0.6);*/
+/*    background-blend-mode: lighten;*/
+/*    background-size: cover;*/
+/*    opacity: 0.7;*/
+/*}*/
+.hero-unit__background-image {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-image: url("recipebox.jpg");
+    background-size: cover;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.imgfortwo{
+ position: center;
 }
 nav {
     display: block;
     color: bisque;
 }
 div{
-    padding-left: 850px;
+    padding-left: 800px;
+    /*position: center;*/
 }
 #centerimg {
     padding-left: 800px;
