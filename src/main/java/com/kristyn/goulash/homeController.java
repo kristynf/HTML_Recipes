@@ -19,5 +19,10 @@ public class homeController {
     public String yogurt(){
         return "instantpotyogurt";
     }
+
+    @RequestMapping("/author")
+    public String author(){
+        return "author";
+    }
 }
 
